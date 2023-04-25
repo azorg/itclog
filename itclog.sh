@@ -154,7 +154,7 @@ itclog_background() {
   done
 }
 
-# запуск (перезапуск) сценария
+# запуск сценария как фонового процесса
 fn_start() {
   if check_run
   then
